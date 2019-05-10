@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link href="styles.css" rel="stylesheet"/>
-    <script src="app.js"></script>
     <title>JS DOM</title>
 </head>
 <body>
@@ -13,7 +12,9 @@
                 <h1 class="title">Bookorama</h1>
                 <p>Books for me</p>
          <form class="search-books" >
-             <input type="text" placeholder="Search books..."/>
+             <label>
+                 <input type="text" placeholder="Search books..."/>
+             </label>
          </form>
             </div>
         </header>
@@ -39,9 +40,12 @@
             </ul>
         </div>
             <form class="add-book">
-            <input type="text" placeholder="Add a book..."/>
-            <button>Add</button>
+                <label>
+                    <input type="text" placeholder="Add a book..."/>
+                </label>
+                <button>Add</button>
             </form>
         </div>
+    <script src="app.js"></script>
     </body>
 </html>

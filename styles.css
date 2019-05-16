@@ -22,19 +22,19 @@ h1, h2{
     border: 1px solid lightgray;
 }
 
-.page-banner{
+#page-banner{
     background: #eee ;
     padding: 10px 0;
 
 }
 
-.page-banner h1, .page-banner p{
+#page-banner h1, #page-banner p{
     width: 100%;
     text-align: center;
     margin: 10px 0;
 }
 
-.page-banner input{
+#page-banner input{
     width: 90%;
     max-width: 300px;
     margin: 20px auto;
@@ -46,22 +46,22 @@ h1, h2{
     color: #444;
 }
 
-.book-list, .add-book, .tabbed-content{
+#book-list, .add-book, .tabbed-content{
     margin: 30px;
 }
 
-.book-list ul, .tabbed-content ul{
+#book-list ul, .tabbed-content ul{
     list-style-type: none;
     padding: 0;
 }
 
-.book-list li{
+#book-list li{
     padding: 20px;
     border-left: 5px solid #ddd;
     margin: 20px 10px;
 }
 
-.book-list li:hover{
+#book-list li:hover{
     border-color: #9361bf;
 }
 

@@ -2,23 +2,25 @@
 
 
 // //2.getElementById
-// let wrapper = document.getElementById('wrapper');
-// console.log(wrapper);
+let wrapper = document.getElementById('wrapper');
+console.log(wrapper);
+
+
 // //3.getElementsByClassName or tag
 let titles = document.getElementsByClassName('title');
-// console.log(titles);
-// console.log(titles[0]);
-// console.log(titles[1]);
-//
-// let lis = document.getElementsByTagName('li');
-// console.log(lis);
-// console.log(lis[0]);
-// console.log(lis[2]);
-//
-// console.log(titles);
-// for( let i=0; i < titles.length; i++){
-//     console.log(titles[i]);
-//}
+console.log(titles);
+console.log(titles[0]);
+console.log(titles[1]);
+
+let lis = document.getElementsByTagName('li');
+console.log(lis);
+console.log(lis[0]);
+console.log(lis[2]);
+
+console.log(titles);
+for( let i=0; i < titles.length; i++){
+    console.log(titles[i]);
+}
 
 
 //console end//
